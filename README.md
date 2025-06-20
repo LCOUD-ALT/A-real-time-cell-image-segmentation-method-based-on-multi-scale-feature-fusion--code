@@ -1,9 +1,8 @@
 # A-real-time-cell-image-segmentation-method-based-on-multi-scale-feature-fusion--code
 
-##Project Introduction
+## Project Introduction
 
-##Environment
-| 标题1 | 标题2 | 
+## Environment
 |-------|-------|
-| 内容1 | 内容2 | 
-| 内容4 | 内容5 | 
+| python | 3.9.7 | 
+| pytorch | 1.12.1 | 
