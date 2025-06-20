@@ -28,7 +28,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('yolov8-BiFPN-AKconv')
+    model = YOLO('yolov8-BiFPN-AKconv.yaml')
 
     model.train(data='path/to/your/data.yaml',
                 cache=False,
