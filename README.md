@@ -1,12 +1,12 @@
 # A-real-time-cell-image-segmentation-method-based-on-multi-scale-feature-fusion--code
 
-## Project Introduction
+## 🚀 Project Introduction
 
-## Environment
+## 📥 Environment
 python==3.8.20 <br>
 pytorch>=2.4.1
 
-## Installation
+## 🧩 Installation
 ### Clone repo  
 ```python
 git clone https://github.com/LCOUD-ALT/A-real-time-cell-image-segmentation-method-based-on-multi-scale-feature-fusion--code.git 
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ```
 
 ## 🧠 Training & Inference
-### Train with custom dataset
+1. ### Train 
 ```python
 import warnings
 warnings.filterwarnings('ignore')
@@ -43,7 +43,7 @@ if __name__ == '__main__':
                 name='exp',
                 )
 ```
-### Inference
+2. ### Inference
 ```python
 import warnings
 warnings.filterwarnings('ignore')
@@ -54,3 +54,5 @@ if __name__ == '__main__':
     results = model.predict("image.jpg",  conf=0.5)  
     results[0].show()  # Display results
 ```
+##📜 License
+Licensed under the MIT License; see LICENSE for details.
