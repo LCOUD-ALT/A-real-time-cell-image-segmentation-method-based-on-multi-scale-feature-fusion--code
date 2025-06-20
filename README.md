@@ -3,8 +3,10 @@
 ## 🚀 Project Introduction
 
 ## 📥 Environment
-python==3.8.20 <br>
+```python
+python==3.8.20 
 pytorch>=2.4.1
+```
 
 ## 🧩 Installation
 ### Clone repo  
@@ -54,5 +56,5 @@ if __name__ == '__main__':
     results = model.predict("image.jpg",  conf=0.5)  
     results[0].show()  # Display results
 ```
-##📜 License
+## 📜 License
 Licensed under the MIT License; see LICENSE for details.
