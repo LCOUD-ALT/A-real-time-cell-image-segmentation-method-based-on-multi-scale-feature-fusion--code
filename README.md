@@ -3,5 +3,5 @@
 ## Project Introduction
 
 ## Environment
-python==3.9.7
+python==3.9.7 <br>
 pytorch==1.12.1
